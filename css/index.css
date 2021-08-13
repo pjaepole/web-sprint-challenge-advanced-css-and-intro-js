@@ -14,17 +14,17 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-/* border: 0;   */
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
 
-*{
+/* *{
     box-sizing: border-box;
     border: 1px black solid;
-}
+} */
 
 
 html{
@@ -175,7 +175,8 @@ nav a{
 .artists-container{
     flex-direction: column;
     justify-content: center;
-    width: 100%;     
+    width: 100%;   
+    margin-bottom: 18%;  
 }
 .artist{
     width:100%;
